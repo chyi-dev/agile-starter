@@ -3,9 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.ache.lab</groupId>
-    <artifactId>ache-dependencies</artifactId>
+    <groupId>com.agile</groupId>
+    <artifactId>agile-starter-dependencies</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
 
@@ -13,7 +12,7 @@
     <description>基础 bom 文件，管理整个项目的依赖版本</description>
 
     <properties>
-        <revision>2.0.1-jdk8-snapshot</revision>
+        <revision>0.0.1</revision>
         <flatten-maven-plugin.version>1.5.0</flatten-maven-plugin.version>
         <!-- 统一依赖管理 -->
         <spring.boot.version>2.7.18</spring.boot.version>
@@ -90,7 +89,7 @@
 
             <!-- 业务组件 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-biz-operatelog</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -106,17 +105,17 @@
                 </exclusions>
             </dependency>
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-biz-tenant</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-biz-data-permission</artifactId>
                 <version>${revision}</version>
             </dependency>
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-biz-ip</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -131,19 +130,19 @@
 
             <!-- Web 相关 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-web</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-security</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-websocket</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -161,7 +160,7 @@
 
             <!-- DB 相关 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-mybatis</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -193,7 +192,7 @@
             </dependency>
 
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-redis</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -218,14 +217,14 @@
 
             <!-- Job 定时任务相关 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-job</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 消息队列相关 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-mq</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -238,7 +237,7 @@
 
             <!-- 服务保障相关 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-protection</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -268,7 +267,7 @@
 
             <!-- 监控相关 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-monitor</artifactId>
                 <version>${revision}</version>
             </dependency>
@@ -380,13 +379,13 @@
 
             <!-- 工具类相关 -->
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-common</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.ache.lab</groupId>
+                <groupId>com.agile</groupId>
                 <artifactId>ache-starter-excel</artifactId>
                 <version>${revision}</version>
             </dependency>
