@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+/agile-common/.flattened-pom.xml
+/agile-starter-dependencies/.flattened-pom.xml
+/.flattened-pom.xml
