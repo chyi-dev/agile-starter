@@ -1,0 +1,2 @@
+com.agile.redis.config.YudaoRedisAutoConfiguration
+com.agile.redis.config.AgileCacheAutoConfiguration

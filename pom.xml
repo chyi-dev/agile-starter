@@ -24,6 +24,7 @@
 		<module>agile-starter-biz-tenant</module>
 		<module>agile-starter-biz-data-permission</module>
 		<module>agile-starter-biz-ip</module>
+		<module>agile-starter-mq</module>
 	</modules>
 	<properties>
 		<revision>0.0.1</revision>

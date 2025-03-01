@@ -102,21 +102,21 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-<!--            <dependency>-->
-<!--                <groupId>com.agile</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-biz-tenant</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-biz-data-permission</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-biz-ip</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-biz-tenant</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-biz-data-permission</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-biz-ip</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- Spring 核心 -->
             <dependency>
@@ -127,26 +127,26 @@
             </dependency>
 
             <!-- Web 相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-web</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
-
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-security</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
-
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-websocket</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
-                <groupId>com.github.xingfudeshi</groupId> <!-- TODO 芋艿：https://github.com/xiaoymin/knife4j/issues/874 -->
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-security</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-websocket</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.xingfudeshi</groupId>
                 <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
@@ -157,11 +157,11 @@
             </dependency>
 
             <!-- DB 相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-mybatis</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -225,11 +225,11 @@
                 <version>${easy-trans.version}</version>
             </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-redis</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.redisson</groupId>
@@ -262,18 +262,18 @@
             </dependency>
 
             <!-- Job 定时任务相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-job</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-job</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <!-- 消息队列相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-mq</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-mq</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
@@ -282,11 +282,11 @@
             </dependency>
 
             <!-- 服务保障相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-protection</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-protection</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.baomidou</groupId>
@@ -301,11 +301,11 @@
             </dependency>
 
             <!-- 监控相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-monitor</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-monitor</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.apache.skywalking</groupId>
@@ -366,12 +366,12 @@
             </dependency>
 
             <!-- Test 测试相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-test</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--                <scope>test</scope>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-test</artifactId>
+                <version>${revision}</version>
+                <scope>test</scope>
+            </dependency>
 
             <dependency>
                 <groupId>org.mockito</groupId>
@@ -421,17 +421,17 @@
             <!-- 工作流相关结束 -->
 
             <!-- 工具类相关 -->
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-common</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
-<!--            <dependency>-->
-<!--                <groupId>cn.iocoder.boot</groupId>-->
-<!--                <artifactId>yudao-spring-boot-starter-excel</artifactId>-->
-<!--                <version>${revision}</version>-->
-<!--            </dependency>-->
+            <dependency>
+                <groupId>com.agile</groupId>
+                <artifactId>agile-starter-excel</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
